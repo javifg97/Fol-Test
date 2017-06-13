@@ -22,11 +22,11 @@ public class DatosPreg {
 			Preguntas[12] = new Pregunta("Si un repartidor tiene un accidente con la furgoneta al desviarse de la ruta que le indicaba el GPS por culpa de unas obras. ¿Se considera accidente de trabajo?", "Si, porque estaba en la furgoneta","no, porque no hizo la ruta que indicaba el trabajo ","Si, porque tambien estan cubiertas las desviaciones de las rutas", "no, por no estar en el centro de trabajo",3);
 			Preguntas[13] = new Pregunta("¿Qué factores derivan de la organización del tiempo?", "Ciclos de trabajo breves","Presión en el tiempo de ejecución","nivel de Concentración", "la primera y la segunda",4);
 			Preguntas[14] = new Pregunta("El envejecimiento prematuro es causado por", "No comer suficiente fruta","Estar demasiado expuesto al sol","Drogas", "Síndrome del quemado o Burnout",4);
-			Preguntas[15] = new Pregunta("preg16", "res1","res2","res3", "res4",1);
-			Preguntas[16] = new Pregunta("preg17", "res1","res2","res3", "res4",1);
-			Preguntas[17] = new Pregunta("preg18", "res1","res2","res3", "res4",1);
-			Preguntas[18] = new Pregunta("preg19", "res1","res2","res3", "res4",1);
-			Preguntas[19] = new Pregunta("preg20", "res1","res2","res3", "res4",1);
+			Preguntas[15] = new Pregunta("¿Qué debe contener un botiquín de una empresa?", "No es necesario tener un botiquín","c)	Gasas estériles, vendas, esparadrapo, apósitos adhesivos, tijeras, pinzas, etc","Un bisturí y alcohol", "Medicamentos",2);
+			Preguntas[16] = new Pregunta("¿Cuál de estos pasos son necesarios para elaborar un Plan de Emergencia Básico?", "Definir acciones y grupos de apoyo","Evaluar recursos","Analizar amenazas y riesgos", "Todas son correctas",4);
+			Preguntas[17] = new Pregunta("¿la vigilancia de la salud la garantiza un empresario dentro de los riesgos del trabajo?", "Si, aunque puede ser voluntaria para el empresario","Sí, puesto que es su deber","Sí, porque el empresario deber hacer todo por el trabajador", "No, porque es algo que debe hacer el empleado",2);
+			Preguntas[18] = new Pregunta("¿Cuál de estos riesgos laboreales no se corresponde con su daño?", "Exposición a ruido - Perdida de audicion","Caídas - Dermatitis","Vibraciones - Artrosis", "Radiaciones - Cirrosis",2);
+			Preguntas[19] = new Pregunta("¿Con que puedes medir la iluminacion?", "Sonómetro","Dosimetro","Termómetro", "Luxómetro",4);
 		
 	
 	}
