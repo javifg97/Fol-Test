@@ -140,6 +140,7 @@ public class vista extends JFrame {
 	}
 
 	public void setPregunta() {
+
 		lblPregunta.setText(Preguntas[numPreg].getPregunta());
 		rdbtnRes1.setText(Preguntas[numPreg].getRespuesta1());
 		rdbtnRes2.setText(Preguntas[numPreg].getRespuesta2());
