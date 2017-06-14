@@ -57,23 +57,23 @@ public class vista extends JFrame {
 	 */
 	private void initialize() {
 
-		setBounds(100, 100, 450, 300);
+		setBounds(100, 100, 482, 300);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		rdbtnRes1 = new JRadioButton("New radio button");
-		rdbtnRes1.setBounds(10, 70, 414, 23);
+		rdbtnRes1.setBounds(10, 70, 450, 23);
 		buttonGroup.add(rdbtnRes1);
 
 		rdbtnRes2 = new JRadioButton("New radio button");
-		rdbtnRes2.setBounds(10, 111, 414, 23);
+		rdbtnRes2.setBounds(10, 111, 450, 23);
 		buttonGroup.add(rdbtnRes2);
 
 		rdbtnRes3 = new JRadioButton("New radio button");
-		rdbtnRes3.setBounds(10, 152, 414, 23);
+		rdbtnRes3.setBounds(10, 152, 450, 23);
 		buttonGroup.add(rdbtnRes3);
 
 		rdbtnRes4 = new JRadioButton("New radio button");
-		rdbtnRes4.setBounds(10, 193, 414, 23);
+		rdbtnRes4.setBounds(10, 193, 450, 23);
 		buttonGroup.add(rdbtnRes4);
 
 		JButton btnAceptar = new JButton("Iniciar");
@@ -97,7 +97,7 @@ public class vista extends JFrame {
 		lblPregunta = new JTextPane();
 		lblPregunta.setBackground(UIManager.getColor("ColorChooser.swatchesDefaultRecentColor"));
 		lblPregunta.setEditable(false);
-		lblPregunta.setBounds(10, 11, 414, 52);
+		lblPregunta.setBounds(10, 11, 450, 52);
 		getContentPane().add(lblPregunta);
 		btnAceptar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
